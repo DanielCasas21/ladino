@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konjugador de verbos en Ladino</title>
+    <link rel="stylesheet" href="css/styles.css">  <!-- Link to CSS file -->
+    <script src="data/IrregularVerbs.js" defer></script>
+    <script src="data/regularVerbs.js" defer></script>
+    <!-- <script src="data/irregulares.js" defer></script> -->
+
+
+</head>
+<body>
+    <h1>Konjugador de verbos en Ladino</h1>
+    <input type="text" id="verbInput" placeholder="Eskrivid un verbo (egz., avlar)">
+    <button onclick="conjugateVerb()">Konjugar</button>
+    <h2>Konjugasion:</h2>
+    <div id="conjugationOutput"></div>
+
+    <script src="js/conjugateAr.js"></script>  <!-- Include conjugateAr -->
+    <script src="js/conjugateEr.js"></script>  <!-- Include conjugateEr -->
+    <script src="js/conjugateIr.js"></script>  <!-- Include conjugateIr -->
+    <script src="js/conjugateArSe.js"></script>  <!-- Include conjugateArse -->
+    <script src="js/conjugateErSe.js"></script>
+    <script src="js/conjugateIrSe.js"></script>
+    <script src="js/app.js"></script>         <!-- Main script file -->
+</body>
+</html>
