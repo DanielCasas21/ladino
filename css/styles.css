@@ -1,0 +1,102 @@
+/* Define base styles and variables */
+:root {
+    --primary-color: #333;
+    --secondary-color: #ddd;
+    --highlight-color: #ff0048;
+    --base-font-size: 16px;
+    --base-line-height: 1.5;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: var(--base-font-size);
+    line-height: var(--base-line-height);
+    padding: 20px;
+    color: var(--primary-color);
+}
+
+h1 {
+    color: var(--primary-color);
+}
+
+input, button {
+    padding: 5px;
+    font-size: 1rem; /* Use relative units for scalability */
+}
+
+button {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#conjugationOutput {
+    margin-top: 20px;
+    font-size: 1.125rem; /* 18px */
+}
+
+.conjugation-section {
+    margin: 20px;
+}
+
+.conjugation-columns {
+    display: flex;
+    flex-direction: column; /* Default to column */
+    flex-wrap: wrap;
+    gap: 20px;
+    /* border: 2px solid var(--secondary-color); */
+    width: 100%;
+}
+
+/* Stack columns vertically on small screens, row on larger screens */
+@media (min-width: 600px) {
+    .conjugation-columns {
+        flex-direction: row;
+    }
+}
+
+.column {
+    flex: 1 1 100%;
+    min-width: 200px;
+    max-width: 300px;
+    box-sizing: border-box;
+    margin: 5px 15px 5px 5px;
+}
+
+/* Adjust flex properties for larger screens */
+@media (min-width: 600px) {
+    .column {
+        flex: 1 1 auto;
+    }
+}
+
+.conjugation-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 5px 0 5px;
+    /* Remove table-layout: fixed to allow cells to grow naturally */
+}
+
+.conjugation-table td {
+    padding: 5px;
+    border: 1px solid var(--secondary-color);
+    white-space: nowrap; /* Prevent text from wrapping within the cell */
+    vertical-align: top; /* Align cell contents to the top */
+    overflow: hidden; /* Hide overflow if the content is too large */
+    text-overflow: ellipsis; /* Add ellipsis (...) if the content overflows */
+}
+
+.ending {
+    color: var(--highlight-color);
+}
+
+.form {
+    text-align: right;
+    font-weight: bold;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .conjugation-columns {
+        flex-direction: column;
+    }
+}

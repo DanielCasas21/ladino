@@ -1,0 +1,117 @@
+{
+    "Infinitivo": [
+        "estar"
+    ],
+    "Gerundio": [
+        "estando"
+    ],
+    "Participio": [
+        "estado"
+    ],
+    "Presente": [
+        "estó / estoy",
+        "estás",
+        "está",
+        "estamos",
+        "estash",
+        "están"
+    ],
+    "Pretérito imperfecto  o  Copretérito (Andrés Bello)": [
+        "estava",
+        "estavas",
+        "estava",
+        "estávamos",
+        "estavash",
+        "estavan"
+    ],
+    "Pretérito indefinido  o  Pretérito (Perfecto simple)": [
+        "estuve",
+        "estuvites",
+        "estuvo",
+        "estuvimos",
+        "estuvitesh",
+        "estuvyeronestuvieron"
+    ],
+    "Futuro": [
+        "estaré",
+        "estarás",
+        "estará",
+        "estaremos",
+        "estarásh",
+        "estarán"
+    ],
+    "Condicional  o  Pospretérito": [
+        "estariya",
+        "estariyas",
+        "estariya",
+        "estariyamos",
+        "estariyash",
+        "estariyan"
+    ],
+    "Participio presente": [
+        "esto estando",
+        "estas estando",
+        "esta estando",
+        "estamos estando",
+        "estash estando",
+        "estan estando"
+    ],
+    "Participio pasado": [
+        "estava estando",
+        "estavas estando",
+        "estava estando",
+        "estavamos estando",
+        "estavash estando",
+        "estavan estando"
+    ],
+    "Pretérito perfecto  o  Antepresente": [
+        "tengo estado",
+        "tyenes / tienes estado",
+        "tyene / tiene estado",
+        "tenemos estado",
+        "tenesh estado",
+        "tyenen / tienen estado"
+    ],
+    "Pretérito pluscuamperfecto  o  Antecopretérito": [
+        "aviya estado",
+        "aviyas estado",
+        "aviya estado",
+        "aviyamos estado",
+        "aviyash estado",
+        "aviyan estado"
+    ],
+    "Futuro próximo": [
+        "vo / v'a estar",
+        "vas a estar",
+        "va estar",
+        "vamos a estar",
+        "vash a estar",
+        "van a estar"
+    ],
+    "Presente_Subjuntivo": [
+        "esté",
+        "estés",
+        "esté",
+        "estemos",
+        "estesh",
+        "estén"
+    ],
+    "Pretérito imperfecto  o  Pretérito": [
+        "estuvyeraestuviera",
+        "estuvyerasestuvieras",
+        "estuvyeraestuviera",
+        "estuvyéramosestuviéramos",
+        "estuvyerashestuvierash",
+        "estuvyeranestuvieran"
+    ],
+    "Afirmativo": [
+        "está",
+        "esté",
+        "estemos",
+        "estad",
+        "estén"
+    ],
+    "Negativo": [
+        "Se emplea el presente del modo subjuntivo"
+    ]
+}

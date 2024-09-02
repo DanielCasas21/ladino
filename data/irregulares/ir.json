@@ -1,0 +1,117 @@
+{
+    "Infinitivo": [
+        "ir"
+    ],
+    "Gerundio": [
+        "indo"
+    ],
+    "Participio": [
+        "ido"
+    ],
+    "Presente": [
+        "vo",
+        "vas",
+        "va",
+        "vamos",
+        "vash",
+        "van"
+    ],
+    "Pretérito imperfecto  o  Copretérito (Andrés Bello)": [
+        "iva",
+        "ivas",
+        "iva",
+        "ivamos",
+        "ivash",
+        "ivan"
+    ],
+    "Pretérito indefinido  o  Pretérito (Perfecto simple)": [
+        "fui",
+        "fuites",
+        "fue",
+        "fuimos",
+        "fuitesh",
+        "fueron"
+    ],
+    "Futuro": [
+        "iré",
+        "irás",
+        "irá",
+        "iremos",
+        "irásh",
+        "irán"
+    ],
+    "Condicional  o  Pospretérito": [
+        "iriya",
+        "iriyas",
+        "iriya",
+        "iriyamos",
+        "iriyash",
+        "irian"
+    ],
+    "Participio presente": [
+        "esto indo",
+        "estas indo",
+        "esta indo",
+        "estamos indo",
+        "estash indo",
+        "estan indo"
+    ],
+    "Participio pasado": [
+        "estava indo",
+        "estavas indo",
+        "estava indo",
+        "estavamos indo",
+        "estavash indo",
+        "estavan indo"
+    ],
+    "Pretérito perfecto  o  Antepresente": [
+        "tengo ido",
+        "tyenes / tienes ido",
+        "tyene / tiene ido",
+        "tenemos ido",
+        "tenesh ido",
+        "tyenen / tienen ido"
+    ],
+    "Pretérito pluscuamperfecto  o  Antecopretérito": [
+        "aviya ido",
+        "aviyas ido",
+        "aviya ido",
+        "aviyamos ido",
+        "aviyash ido",
+        "aviyan ido"
+    ],
+    "Futuro próximo": [
+        "vo / v'a ir",
+        "vas a ir",
+        "va ir",
+        "vamos a ir",
+        "vash a ir",
+        "van a ir"
+    ],
+    "Presente_Subjuntivo": [
+        "vaya",
+        "vayas",
+        "vaya",
+        "vayamos",
+        "vayásh",
+        "vayan"
+    ],
+    "Pretérito imperfecto  o  Pretérito": [
+        "fuera",
+        "fueras",
+        "fuera",
+        "fuéramos",
+        "fuerash",
+        "fueran"
+    ],
+    "Afirmativo": [
+        "va",
+        "vaya",
+        "vayamos",
+        "vaya",
+        "vayan"
+    ],
+    "Negativo": [
+        "Se emplea el presente del modo subjuntivo"
+    ]
+}
