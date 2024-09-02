@@ -36,22 +36,12 @@ async function conjugateVerb() {
     }
 
     // // Check if the base verb is irregular
-    // if (irregularVerbs.includes(baseVerb)) {
-    //     conjugationOutput.innerHTML = `El verbo ${verb.toUpperCase()} es irregular.`;
-    //     return;
-    // }
-
-    // Check if the base verb is irregular
     if (irregularVerbs.includes(baseVerb)) {
-        loadLocalHTML(`${baseVerb}.html`, function(conjugationHTML) {
-            if (conjugationHTML) {
-                conjugationOutput.innerHTML = conjugationHTML;
-            } else {
-                conjugationOutput.innerHTML = `El verbo ${verb.toUpperCase()} es irregular, pero no se encontró la conjugación.`;
-            }
-        });
-        return;
+         conjugationOutput.innerHTML = `El verbo ${verb.toUpperCase()} es irregular.`;
+         return;
     }
+
+
 
     // Define the verbs to exclude
     const excludedVerbs = ['ir', 'ser', 'estar', 'ver', 'dar'];
