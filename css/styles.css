@@ -85,6 +85,12 @@ button {
     text-overflow: ellipsis; /* Add ellipsis (...) if the content overflows */
 }
 
+.conjugation-table td:last-child {
+    white-space: normal; /* Allow the last column to wrap text */
+    display: inline-block; /* Ensure it occupies its own block to move to the next row if necessary */
+    width: 100%; /* Make the last column take the full width if it overflows */
+}
+
 .ending {
     color: var(--highlight-color);
 }
