@@ -47,7 +47,7 @@ async function conjugateVerb() {
             if (conjugationHTML) {
                 conjugationOutput.innerHTML = conjugationHTML;
             } else {
-                conjugationOutput.innerHTML = `El verbo ${verb.toUpperCase()} es iregolar.`;
+                conjugationOutput.innerHTML = `El verbo ${verb.toUpperCase()} es iregolar. Muy presto lo tendremos en los muestros datos.`;
             }
         });
         return;
