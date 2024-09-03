@@ -47,7 +47,7 @@ async function conjugateVerb() {
             if (conjugationHTML) {
                 conjugationOutput.innerHTML = conjugationHTML;
             } else {
-                conjugationOutput.innerHTML = `El verbo ${verb.toUpperCase()} es iregolar. Muy presto lo tendremos en los muestros datos.`;
+                conjugationOutput.innerHTML = `El verbo ${verb.toUpperCase()} es iregolar. Si el Dio kere, muy presto lo tendremos en los muestros datos.`;
             }
         });
         return;
