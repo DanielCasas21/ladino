@@ -47,7 +47,7 @@ async function conjugateVerb() {
             if (conjugationHTML) {
                 conjugationOutput.innerHTML = conjugationHTML;
             } else {
-                conjugationOutput.innerHTML = `El verbo ${verb.toUpperCase()} es iregolar, pero no se encontró la conjugación.`;
+                conjugationOutput.innerHTML = `El verbo ${verb.toUpperCase()} es iregolar. Si el Dio kere, muy presto meteremos la konjugasion.`;
             }
         });
         return;
