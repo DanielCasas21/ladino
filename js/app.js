@@ -47,7 +47,7 @@ async function conjugateVerb() {
             if (conjugationHTML) {
                 conjugationOutput.innerHTML = conjugationHTML;
             } else {
-                conjugationOutput.innerHTML = `El verbo ${verb.toUpperCase()} es iregolar. En kurto van estar este modo de verbos.`;
+                conjugationOutput.innerHTML = `El verbo ${verb.toUpperCase()} es irregolar. En kurto van estar este modo de verbos.`;
             }
         });
         return;
