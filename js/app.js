@@ -24,7 +24,7 @@ async function conjugateVerb() {
     const conjugationOutput = document.getElementById('conjugationOutput');
 
     if (verb === "") {
-        conjugationOutput.innerHTML = "No eskrivitesh dingun verbo!";
+        conjugationOutput.innerHTML = "Eskrive un verbo, por favor!";
         return;
     }
 
@@ -47,7 +47,7 @@ async function conjugateVerb() {
             if (conjugationHTML) {
                 conjugationOutput.innerHTML = conjugationHTML;
             } else {
-                conjugationOutput.innerHTML = `El verbo ${verb.toUpperCase()} es iregolar. Si el Dio kere, muy presto meteremos la konjugasion.`;
+                conjugationOutput.innerHTML = `El verbo ${verb.toUpperCase()} es iregolar. En kurto van estar este modo de verbos.`;
             }
         });
         return;
@@ -76,13 +76,13 @@ async function conjugateVerb() {
     // Check if the verb has a valid ending
     const verbEnding = getVerbEnding(verb);
     if (verbEnding === null) {
-        conjugationOutput.innerHTML = "No eskrivistesh dingun verbo. Eskrivid un verbo ke eskape kon -ar, -er, o -ir.";
+        conjugationOutput.innerHTML = "Eskrive un verbo ke eskape kon -ar, -er, o -ir, por favor!";
         return; // Exit function early if the verb is invalid
     }
 
     let message = "";
     if (!regularVerbs.includes(baseVerb)) {
-        message = `${verb.toUpperCase()}: No lo tengo en mis datos; si es regolar, se konjuga ansina: `;
+        message = `${verb.toUpperCase()}: No se topa en mi baza de datos; si es regolar, se konjuga ansina: `;
     }
 
     let conjugation = "";
