@@ -23,6 +23,7 @@ const    irregularVerbs = [
         "kozer",
         "kuzir",
         "murir",
+        "oyer",
         "oyir",
         "poder",
         "pueder",
